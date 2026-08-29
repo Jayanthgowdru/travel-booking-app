@@ -23,7 +23,7 @@ spec:
 
       - name: travel-booking-app
 
-        image: Jayanth/travel-booking-app:5
+        image: jayanthgowda6/travel-booking-app:5
 
         imagePullPolicy: Always
 
