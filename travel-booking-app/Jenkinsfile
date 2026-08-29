@@ -55,6 +55,7 @@ pipeline {
                     '''
                 }
             }
+        }
             stage('Deploy to Kubernetes') {
     steps {
         dir('travel-booking-app') {
@@ -68,7 +69,7 @@ pipeline {
 }
         }
     }
-
+}
     post {
         success {
             echo 'Pipeline executed successfully.'
